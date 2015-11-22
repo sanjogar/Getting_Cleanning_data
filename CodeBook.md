@@ -1,6 +1,6 @@
-# Information with the name of the variables, the data and the transformations performed to clean up the downloaded datasets. 
+## Information with the name of the variables, the data and the transformations performed to clean up the downloaded datasets. 
 
-## The following points describe the different steps followed by the R programme "run_analysis.R". The goal is to generate a tidy data set from original measuraments according to certain parameters and criteria:
+### The following points describe the different steps followed by the R programme "run_analysis.R". The goal is to generate a tidy data set from original measuraments according to certain parameters and criteria:
 
 0. In the argument of the program it is specified the path where the downloaded folder with the original data sets is located. It indicates the library used.
 
@@ -19,7 +19,7 @@ The name of the selected variables are listed at the end of this document. These
 
 
 
-## Name of the variables selected in step 2:
+### Name of the variables selected in step 2:
 [3] "tBodyAcc.mean...X"              
 [4] "tBodyAcc.mean...Y"              
 [5] "tBodyAcc.mean...Z"              
