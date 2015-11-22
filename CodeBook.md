@@ -19,7 +19,7 @@ The name of the selected variables are listed at the end of this document. These
 
 
 
-#### Name of the variables selected in step 2:
+#### Name of the variables selected in step number 2:
 [3] "tBodyAcc.mean...X"              
 [4] "tBodyAcc.mean...Y"              
 [5] "tBodyAcc.mean...Z"              
