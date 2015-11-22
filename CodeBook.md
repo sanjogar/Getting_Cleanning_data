@@ -15,11 +15,11 @@ The name of the selected variables are listed at the end of this document. These
 
 4. The name of the columns are slighly modified by removing the specific character ".." generated when reading the datasets and using the *col.names*. 
 
-5. Calculates the average of each of the selected variables in point number 2 (listed below) for each subject and for each activity. For this, the data frame in step 4 is grouped simultaneously into the two columns *subject* and *activity*. Then, the function **summarize_each** is used to calculate the average (mean) for all remaining columns which have not beeing used in the grouping criterium. This implies that for each subject and each activity, the mean of all variables listed at the end of this document are calculated and stored in a new data frame variable. Its dimension is 180 x 81 (the specific number of rows comes from the 6 activities x 30 subjects = 180). Therefore, this step creates an independent tidy data set which is finally saved in an output file called "tidy_average_sub-act.txt". The names of the columns are included when writing the file (not the row names). However, to properly read the column names, the argument *header = TRUE* in the *read.table* command should be added.  
+5. Calculates the average of each of the selected variables in point number 3 (listed below) for each subject and for each activity. For this, the data frame in step 4 is grouped simultaneously into the two columns *subject* and *activity*. Then, the function **summarize_each** is used to calculate the average (mean) for all remaining columns which have not beeing used in the grouping criterium. This implies that for each subject and each activity, the mean of all variables listed at the end of this document are calculated and stored in a new data frame variable. Its dimension is 180 x 81 (the specific number of rows comes from the 6 activities x 30 subjects = 180). Therefore, this step creates an independent tidy data set which is finally saved in an output file called "tidy_average_sub-act.txt". The names of the columns are included when writing the file (not the row names). However, to properly read the column names, the argument *header = TRUE* in the *read.table* command should be added.  
 
 
 
-#### Name of the variables selected in step number 2:
+#### Name of the variables selected in step number 3:
 [3] "tBodyAcc.mean...X"              
 [4] "tBodyAcc.mean...Y"              
 [5] "tBodyAcc.mean...Z"              
